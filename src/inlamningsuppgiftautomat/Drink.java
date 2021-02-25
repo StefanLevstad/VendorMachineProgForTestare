@@ -5,6 +5,8 @@
  */
 package inlamningsuppgiftautomat;
 
+import java.util.Scanner;
+
 /**
  *
  * @author stefa
@@ -17,21 +19,20 @@ public class Drink extends MainMenu implements DispenserInterface{
     }
     
     
-    
-    
+   //Metoder från interface ´
     @Override
     public void Description() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println(name + " " + price + " " + beskrivning);
     }
 
     @Override
     public void Buy() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Produkten är nu köpt!");   
     }
 
     @Override
     public void Use() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Sveper drickan, läskande!");
     }
     
 }

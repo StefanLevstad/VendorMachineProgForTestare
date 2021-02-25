@@ -16,16 +16,15 @@ abstract public class MainMenu {
     public String beskrivning;
     
     
+    
     //konstruktor, tilldelar värden till attributen.
     public MainMenu (String name, int price, String beskrivning){
         this.name = name;
         this.price = price;
         this.beskrivning = beskrivning;
-          
+
+        
     }
-    
-    //gör switch-case i while-loop för menyn!!
-    
     
     
     

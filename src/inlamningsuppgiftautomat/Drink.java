@@ -5,8 +5,6 @@
  */
 package inlamningsuppgiftautomat;
 
-import java.util.Scanner;
-
 /**
  *
  * @author stefa

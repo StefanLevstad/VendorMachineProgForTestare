@@ -25,7 +25,7 @@ public class Clothes extends MainMenu implements DispenserInterface{
 
     @Override
     public void Buy() {
-        System.out.println("Produkten är nu köpt!");
+        System.out.println("Jackan är nu köpt!");
     }
 
     @Override

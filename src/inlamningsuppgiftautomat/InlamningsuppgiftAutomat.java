@@ -58,7 +58,7 @@ public class InlamningsuppgiftAutomat {
                     food.Buy();
                     food.Use();
                 } 
-                //om valet är nej återgår programmet till huvudmenyn.
+                //Om valet är nej eller felaktigt återgår programmet till huvudmenyn.
                 else if (foodVal.equals("Nej")){
                     System.out.println("Tack ändå!");
                     System.out.println("=======================");
@@ -73,7 +73,7 @@ public class InlamningsuppgiftAutomat {
             
             //Ett för Drink-classen
             case 2:
-                //anropar metoden Description i Drink-classen
+                //Anropar metoden Description i Drink-classen
                 drink.Description();
                 System.out.print("Vill du köpa drycken? Ja/Nej: ");
                 String drinkVal = scan.next();
@@ -86,7 +86,7 @@ public class InlamningsuppgiftAutomat {
                     drink.Buy();
                     drink.Use();
                 } 
-                //om valet är nej återgår programmet till huvudmenyn.
+                //Om valet är nej eller felaktigt återgår programmet till huvudmenyn.
                 else if (drinkVal.equals("Nej")){
                     System.out.println("Tack ändå!");
                     System.out.println("=======================");
@@ -101,13 +101,13 @@ public class InlamningsuppgiftAutomat {
 
             //Ett för clothes klassen    
             case 3:
-                //anropar metoden Description i Clothes-classen
+                //Anropar metoden Description i Clothes-classen
                 clothes.Description();
                 
                 System.out.print("Vill du köpa Jackan? Ja/Nej: ");
                 String clothesVal = scan.next();
                 System.out.println(clothesVal);
-                //om valet är Ja eller ja, köps produkten
+                //Om valet är Ja eller ja, köps produkten
                 if (clothesVal.equals("Ja")){
                     drink.Buy();
                     drink.Use();
@@ -115,7 +115,7 @@ public class InlamningsuppgiftAutomat {
                     clothes.Buy();
                     clothes.Use();
                 } 
-                //om valet är nej återgår programmet till huvudmenyn.
+                //Om valet är nej eller felaktigt återgår programmet till huvudmenyn.
                 else if (clothesVal.equals("Nej")){
                     System.out.println("Tack ändå!");
                     System.out.println("=======================");
@@ -135,9 +135,9 @@ public class InlamningsuppgiftAutomat {
                 System.exit(0);
                 break;
                 
-                //om ett felaktigt val görs, startar programmet om från början.
+                //Om ett felaktigt val görs, startar programmet om från början.
                 default: System.out.println("Felaktigt val!");
-                System.exit(0);
+                
             } 
         }
     }  

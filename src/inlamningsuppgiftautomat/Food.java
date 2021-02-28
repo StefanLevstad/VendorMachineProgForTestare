@@ -27,7 +27,7 @@ public class Food extends MainMenu implements DispenserInterface{
 
     @Override
     public void Buy() {
-        System.out.println("Produkten är nu köpt!");
+        System.out.println("Steken är nu köpt!");
     }
 
     @Override

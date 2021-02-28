@@ -25,12 +25,12 @@ public class Drink extends MainMenu implements DispenserInterface{
 
     @Override
     public void Buy() {
-        System.out.println("Produkten är nu köpt!");   
+        System.out.println("En Redbull är nu köpt!");   
     }
 
     @Override
     public void Use() {
-        System.out.println("Sveper drickan, läskande!");
+        System.out.println("Sveper Redbull, läskande!");
     }
     
 }

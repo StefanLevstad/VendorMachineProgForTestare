@@ -109,8 +109,8 @@ public class InlamningsuppgiftAutomat {
                 System.out.println(clothesVal);
                 //Om valet är Ja eller ja, köps produkten
                 if (clothesVal.equals("Ja")){
-                    drink.Buy();
-                    drink.Use();
+                    clothes.Buy();
+                    clothes.Use();
                 } else if (clothesVal.equals("ja")){
                     clothes.Buy();
                     clothes.Use();
